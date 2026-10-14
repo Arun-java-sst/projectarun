@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="167.691" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-13T13:49:54.122508200Z">
+<testcase classname="User Have to Purchase Gifts in Blossom Gift" name="User Have to Login and purchase gifts by all functionalities - #1.1" time="167.176">
+<system-out><![CDATA[
+Given Maximize, handle synchronization and clear popup......................passed
+When User Have to pass the "arunkumar06mugam@gmail.com" and "Test@12345" and click login.passed
+And User Have to select gift................................................passed
+And User Have to fill the gift message......................................passed
+And User Have to fill the delivery address details..........................passed
+And User Have to doing payment..............................................passed
+Then User Have place order..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

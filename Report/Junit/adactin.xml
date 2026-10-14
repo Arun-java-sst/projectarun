@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="12.785" tests="4" skipped="0" failures="3" errors="0" timestamp="2026-10-02T06:50:22.667249600Z">
+<testcase classname="User have to validate the login function in login page" name="Validate with invalid username and valid password for adactin" time="10.311">
+<failure type="java.lang.AssertionError" message="Page Title is Not Same becoz actual vs expected not same expected [Adactin.com - Hotel Reservation System] but found [Adactin.com - Search Hotel]">
+<![CDATA[java.lang.AssertionError: Page Title is Not Same becoz actual vs expected not same expected [Adactin.com - Hotel Reservation System] but found [Adactin.com - Search Hotel]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.stepdef2datatable.StepDefinition2.enter_the_invalid_username_and_valid_password_and_click_the_login_button(StepDefinition2.java:55)
+	at ✽.Enter the invalid username and valid password and click the login button(file:///C:/Users/lenovo/eclipse-workspace/ArunCucumber/src/main/resources/Featurefile/login2.feature:17)
+]]>
+</failure>
+<system-out><![CDATA[
+Given max and handle synchronization........................................passed
+When Enter the invalid username and valid password and click the login button.failed
+Then User Have to close the tab.............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User have to validate the login function in login page" name="Validate with valid username and invalid password for adactin" time="12.302">
+<failure type="java.lang.AssertionError" message="Page Title is Not Same becoz actual vs expected not same expected [Adactin.com - Hotel Reservation System] but found [Adactin.com - Search Hotel]">
+<![CDATA[java.lang.AssertionError: Page Title is Not Same becoz actual vs expected not same expected [Adactin.com - Hotel Reservation System] but found [Adactin.com - Search Hotel]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.stepdef2datatable.StepDefinition2.enter_the_valid_username_and_invalid_password_and_click_the_login_button(StepDefinition2.java:72)
+	at ✽.Enter the valid username and invalid password and click the login button(file:///C:/Users/lenovo/eclipse-workspace/ArunCucumber/src/main/resources/Featurefile/login2.feature:25)
+]]>
+</failure>
+<system-out><![CDATA[
+Given max and handle synchronization........................................passed
+When Enter the valid username and invalid password and click the login button.failed
+Then User Have to close the tab.............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User have to validate the login function in login page" name="Validate with valid username and password for adactin" time="10.173">
+<system-out><![CDATA[
+Given max and handle synchronization........................................passed
+When Enter the valid login credentials and click login button...............passed
+Then User Have to close the tab.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User have to validate the login function in login page" name="Validate with invalid username and invalid password for adactin" time="9.188">
+<failure type="java.lang.AssertionError" message="Page Title is Not Same becoz actual vs expected not same expected [Adactin.com - Hotel Reservation System] but found [Adactin.com - Search Hotel]">
+<![CDATA[java.lang.AssertionError: Page Title is Not Same becoz actual vs expected not same expected [Adactin.com - Hotel Reservation System] but found [Adactin.com - Search Hotel]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.stepdef2datatable.StepDefinition2.enter_the_invalid_username_and_invalid_password_and_click_the_login_button(StepDefinition2.java:89)
+	at ✽.Enter the invalid username and invalid password and click the login button(file:///C:/Users/lenovo/eclipse-workspace/ArunCucumber/src/main/resources/Featurefile/login2.feature:31)
+]]>
+</failure>
+<system-out><![CDATA[
+Given max and handle synchronization........................................passed
+When Enter the invalid username and invalid password and click the login button.failed
+Then User Have to close the tab.............................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
